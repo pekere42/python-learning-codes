@@ -33,6 +33,7 @@ text_input.focus()
 
 send_button_2 = Button(text="Send 2",width=30,command=click_send_button_2)
 send_button_2.pack()
+    
 
 
 

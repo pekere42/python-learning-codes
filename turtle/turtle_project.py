@@ -18,7 +18,7 @@ while x < 4:
 turtle.done()
 """
 """
-#yıldız oluşturma
+#yildiz oluşturma
 turtle.instance = turtle.Turtle()
 x = 0
 while x < 5:

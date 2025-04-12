@@ -7,18 +7,14 @@
     <title>Bootstrap 5</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- this link which is used here is a connection between bootstrap css library and this html file -->
     <style>
-        .btn {
-            border-radius: 15px;
-        }
-
-        body {
-            padding: 50px;
-        }
     </style>
 </head>
 
-<body>
+<body class="w-75 mx-auto my-4">
+    <!-- 
+    HEADİNG VE TEXT
     <button type="button" class="btn btn-primary">Primary</button>
 
     <h1>h1. Bootstrap Heading</h1>
@@ -57,7 +53,7 @@
     <p class="text-lowercase">LOWERCASE</p>
     <p class="text-uppercase">uppercase</p>
     <p class="text-capitalize">capitalized text</p>
-
+COLOR
     <p class="text-primary">text-primary</p>
     <p class="text-secondary">text-secondary</p>
     <p class="text-success">text-success</p>
@@ -78,7 +74,7 @@
     <div class="bg-primary">bg-primary</div>
     <br><br>
     <div class="bg-info">bg-info</div>
-
+BUTON
     <button class="btn btn-primary">Primary</button>
     <button class="btn btn-danger">Danger</button>
     <button class="btn btn-secondary">Secondary</button>
@@ -127,6 +123,986 @@
         <button class="btn btn-secondary">Secondary</button>
         <button class="btn btn-success">Success</button>
     </div>
+    <br><br>
+MARGİN AND PADDİNG
+    <div class="bg-secondary m-2">Kutu -1</div> there is another usage for margin and padding like mt,mb 
+    <div class="bg-warning m-5">Kutu -2</div>
+    <br><br>
+BORDER
+    <div class="bg-light mt-3 p-4"></div>
+    <div class="bg-light mt-3 p-4 border"></div>full 
+    <div class="bg-light mt-3 p-4 border-bottom"></div>only use in bottom 
+    <div class="bg-light mt-3 p-4 border-top"></div>only use in top 
+    <div class="bg-light mt-3 p-4 border border-top-0"></div>dont use in top 
+    <br>
+    <div class="bg-light mt-3 p-4 border border-primary"></div>
+    <br>
+    <div class="bg-light mt-3 p-4 border border-primary rounded"></div>
+    <div class="bg-light mt-3 p-4 border border-primary rounded-top"></div>
+    <br>
+    <div class="shadow bg-light mt-3 p-4"></div>
+    <div class="shadow-sm bg-light mt-3 p-4"></div>
+    <div class="shadow-lg bg-light mt-3 p-4"></div>
+TABLES
+<table class="table">    
+        <thead>
+            <th>#</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Tel No</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pelin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Melahat</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Enes</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Yalçin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-primary">    
+        <thead>
+            <th>#</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Tel No</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pelin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Melahat</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Enes</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Yalçin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table">    
+        <thead class="table-danger">
+            <th>#</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Tel No</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pelin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Melahat</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Enes</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Yalçin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-striped">    
+        <thead>
+            <th>#</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Tel No</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pelin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Melahat</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Enes</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Yalçin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-striped table-bordered">    
+        <thead>
+            <th>#</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Tel No</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pelin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Melahat</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Enes</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Yalçin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-hover">    
+        <thead>
+            <th>#</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Tel No</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pelin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Melahat</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Enes</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Yalçin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm">    
+        <thead>
+            <th>#</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Tel No</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pelin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Melahat</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Enes</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Yalçin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table">    
+        <thead>
+            <th class="table-primary">#</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Tel No</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pelin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Melahat</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Enes</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Yalçin</td>
+                <td>Ertunalilar</td>
+                <td>05525859710</td>
+            </tr>
+        </tbody>
+    </table>
+LİSTS
+    <ul class="list">
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+    </ul>
+    <br><br>
+    <ul class="list-unstyled">
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+    </ul>
+    <br><br>
+    <ul class="list-group">
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+    </ul>
+    <br><br>
+    <ul class="list-group">
+        <li class="list-group-item active">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item active">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+    </ul>
+    <br><br>
+    <ul class="list-group">
+        <li class="list-group-item active">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item disabled">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item active">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+    </ul>
+    <div>
+        <a href="" class="list-group-item list-group-item">1</a>
+        <a href="" class="list-group-item list-group-item">2</a>
+        <a href="" class="list-group-item list-group-item">3</a>
+        <a href="" class="list-group-item list-group-item">4</a>
+    </div>
+    <br>
+    <div>
+        <a href="" class="list-group-item list-group-item-action">1</a>
+        <a href="" class="list-group-item list-group-item-action active">2</a>
+        <a href="" class="list-group-item list-group-item">3</a>
+        <a href="" class="list-group-item list-group-item-action disabled">4</a>
+    </div>
+    <br><br>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+    </ul>
+    <br><br>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-primary">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item list-group-item-warning">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit.</li>
+    </ul>
+ALERT
+    <div class="alert alert-primary">
+        Lorem ipsum dolor sit amet, consectetur adipisicing.
+    </div>
+    <br></br>
+    <div alert alert-primary mb-2>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, tenetur. Aut esse quod veritatis fugiat quam dicta laudantium, repellat inventore sed vitae vero perferendis tempora quisquam voluptatem voluptate maiores temporibus.
+        Aliquam, qui quis. Reprehenderit accusantium corporis animi voluptas molestias ducimus quaerat alias? Ipsum ipsa aperiam odio ex, pariatur molestiae illum voluptatum est eos, dolor obcaecati deserunt fugiat dicta alias voluptatibus.
+<a class="alert-link"  href="">Read More...</a>
+    </div>
+İMAGE
+<img src="images/image-1.jpg" alt="" class="w">
+<br><br>
+<img src="images/image-1.jpg" alt="" class="rounded w">
+<img src="images/image-2.jpg" alt="" class="rounded-circle w">
+<img src="images/image-2.jpg" alt="" class="img-thumbnail w">
+<img src="images/image-2.jpg" alt="" class="img-fluid">
+<img src="images/image-2.jpg" alt="" class="w d-block mx-auto">
+FORM
+    <form>
+        <div class="form-group">
+            <label for="name">Adiniz</label>
+            <input type="text" id="name" class="form-control" placeholder="Adinizi Giriniz">
+        </div>
+        <div class="form-group mt-3">
+            <label for="name">Soyadinizi Giriniz</label>
+            <input type="text" id="name" class="form-control" placeholder="Soyadinizi Giriniz">
+        </div>
+        <div class="form-group mt-3">
+            <label for="email">E-mail Adresiniz</label>
+            <input type="text" id="email" class="form-control" placeholder="E-mail Adresini Giriniz">
+            <small class="form-text text-muted">E-mail Adresinizi Girmek Zorunludur</small>
+        </div>
+        <div class="form-group mt-3">
+            <label for="password">Parolaniz</label>
+            <input type="password" id="password" class="form-control" placeholder="Parolanizi Giriniz">
+        </div>
+        <div class="form-group mt-4">
+            <label for="city">Doğum Yeriniz</label>
+            <select name="city" id="city" class="form-control">
+                <option value="34">İstanbul</option>
+                <option value="09">Aydin</option>
+                <option value="06">Ankara</option>
+                <option value="41">Kocaeli</option>
+                <option value="26">Eskişehir</option>
+            </select>
+        </div>
+        <div class="form-group mt-3">
+            <label for="message">Mesajiniz</label>
+            <textarea name="message" id="message" class="form-control">
+
+            </textarea>
+        </div>
+        <div class="form-group mt-3">
+            <legend>Hobileriniz</legend>
+
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox">Futbol
+                </label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox">Basketbol
+                </label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox">Tenis
+                </label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox">Atletizm
+                </label>
+            </div>
+
+        </div>
+        <div class="custom-control custom-radio mt-4">
+            <label class="custom-control-lable" for="rb">RadioButton</label>
+            <input type="radio" id="rb" class="custom-control-input">
+        </div>
+        <div class="custom-control custom-checkbox mt-4">
+            <label class="custom-control-lable" for="cb">Checkbox</label>
+            <input type="checkbox" id="cb" class="custom-control-input">
+        </div>
+        <br>
+        <p>in raddiobutton you can only choose 1 button or none but in checkbox you can have multiple choice</p>
+
+        <div class="input-group mt-3">
+            <input type="text" class="form-control">
+            <div class="input-group-append">
+                <span class="input-group-text" id="ig">@gmail.com</span>
+            </div>
+
+        </div>
+        <div class="input-group mt-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="ig">http://instagram.com/</span>
+            </div>
+            <input type="text" class="form-control">
+        </div>
+    </form>
+CARD
+    <div class="card">
+        <div class="card-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis nesciunt culpa id rerum, tenetur odit
+            fuga quas eaque repudiandae eius voluptates commodi ipsum odio recusandae, obcaecati consectetur, dolor
+            animi aliquam.
+
+        </div>
+
+    </div>
+    <div class="card my-3 bg-info">
+        <div class="card-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis nesciunt culpa id rerum, tenetur odit
+            fuga quas eaque repudiandae eius voluptates commodi ipsum odio recusandae, obcaecati consectetur, dolor
+            animi aliquam.
+
+        </div>
+
+    </div>
+    <div class="card my-3 bg-info text-white">
+        <div class="card-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis nesciunt culpa id rerum, tenetur odit
+            fuga quas eaque repudiandae eius voluptates commodi ipsum odio recusandae, obcaecati consectetur, dolor
+            animi aliquam.
+
+        </div>
+
+    </div>
+    <div class="card my-3 bg-dark text-white">
+        <div class="card-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis nesciunt culpa id rerum, tenetur odit
+            fuga quas eaque repudiandae eius voluptates commodi ipsum odio recusandae, obcaecati consectetur, dolor
+            animi aliquam.
+
+        </div>
+
+    </div>
+    <div class="card my-3 bg-light">
+        <div class="card-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis nesciunt culpa id rerum, tenetur odit
+            fuga quas eaque repudiandae eius voluptates commodi ipsum odio recusandae, obcaecati consectetur, dolor
+            animi aliquam.
+
+        </div>
+
+    </div>
+    <div class="card my-3">
+        <div class="card-body">
+            <h4 class="card-title">
+                Lorem ipsum dolor sit amet consectetur.
+            </h4>
+            <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, harum.
+            </p>
+            <button class="btn btn-primary">Buton-1</button>
+
+        </div>
+
+    </div>
+    <div class="card my-3">
+        <div class="card-header">
+            Header
+        </div>
+        <div class="card-body">
+            Lorem ipsum dolor sit amet.
+        </div>
+        <div class="card-footer">
+            Footer
+        </div>
+
+    </div>
+    <div class="card my-3">
+        <div class="card-header">
+            Header
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item mx-2">Lorem ipsum dolor sit amet.</li>
+            <li class="list-group-item bg-info">Lorem ipsum dolor sit amet.</li>
+            <li class="list-group-item bg-secondary">Lorem ipsum dolor sit amet.</li>
+            <li class="list-group-item my-5">Lorem ipsum dolor sit amet.</li>
+            <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        </ul>
+
+    </div>
+    </div>
+    <div class="card my-3 text-center">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+            <h4 class="card-title">Header</h4>
+        </div>
+        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+        <button class="btn btn-danger">Button-2</button>
+    </div>
+    <div class="card-columns my-3">
+        <div class="card bg-warning">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet.
+            </div>
+
+        </div>
+        <div class="card bg-light" style="height: 130px;">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet.
+            </div>
+
+        </div>
+        <div class="card bg-danger" style="height: 200px;">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet.
+            </div>
+
+        </div>
+        <div class="card bg-info">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet.
+            </div>
+
+        </div>
+
+    </div>
+JUMBOTRON&BREADCRUMB
+<div class="jumbotron">
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p class="lead">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sapiente velit nulla neque pariatur tempora blanditiis sit dolorem atque magnam!
+    </p>
+    <hr>
+    <p>
+        Lorem ipsum dolor sit amet.
+    </p>
+    <a href="" class="btn btn-primary btn-lg">button-1</a>
+
+</div>
+
+<nav>
+    <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active">Anasayfa</li>
+        </ol>
+    </div>
+</nav>
+<nav>
+    <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Anasayfa</a></li>
+            <li class="breadcrumb-item active">Ürünler</li>
+        </ol>
+    </div>
+</nav>
+<nav>
+    <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Anasayfa</a></li>
+            <li class="breadcrumb-item"><a href="/">Ürünler</a></li>
+            <li class="breadcrumb-item active">Site Haritasi</li>
+        </ol>
+    </div>
+</nav>
+DROPDOWN
+
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Dropdown Button
+        </button>
+        <div class="dropdown-menu">
+            <a href="" class="dropdown-item">Link-1</a>
+            <a href="" class="dropdown-item">Link-2</a>
+            <a href="" class="dropdown-item">Link-3</a>
+        </div>
+
+    </div>
+    <br><br>
+    <div class="dropdown">
+        <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+            Dropdown Button
+        </button>
+        <div class="dropdown-menu">
+            <a href="" class="dropdown-item">Link-1</a>
+            <a href="" class="dropdown-item">Link-2</a>
+            <a href="" class="dropdown-item">Link-3</a>
+            <div class="dropdown-divider"></div>
+            <a href="" class="dropdown-item">Link-4</a>
+            <a href="" class="dropdown-item">Link-5</a>
+
+        </div>
+
+    </div>
+    <br><br>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Dropdown Button
+        </button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Link-1</a>
+            <a href="#" class="dropdown-item">Link-2</a>
+            <a href="#" class="dropdown-item">Link-3</a>
+            <div class="dropdown-header">Başlik</div>
+            <a href="#" class="dropdown-item">Link-4</a>
+            <a href="#" class="dropdown-item">Link-5</a>
+        </div>
+
+    </div>
+    <br><br>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Dropdown Button
+        </button>
+        <div class="dropdown-menu">
+            <a href="" class="dropdown-item active">Link-1</a>
+            <a href="" class="dropdown-item disabled">Link-2</a>
+            <a href="" class="dropdown-item">Link-3</a>
+        </div>
+
+    </div>
+    <br><br>
+    <div class="dropdown dropleft float-right">
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Dropdown Button
+        </button>
+        <div class="dropdown-menu">
+            <a href="" class="dropdown-item">Link-1</a>
+            <a href="" class="dropdown-item">Link-2</a>
+            <a href="" class="dropdown-item">Link-3</a>
+        </div>
+
+    </div>
+    <br><br>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">buton1</button>
+        <button type="button" class="btn btn-primary">buton2</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">buton3</button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link-1</a>
+                <a href="#" class="dropdown-item">Link-2</a>
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+NAVBAR
+<nav class="navbar bg-light navbar-expand-sm ">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 3</a>
+        </li>
+        
+
+    </ul>
+</nav>
+<nav class="navbar bg-light navbar-expand-sm justify-content-center ">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 3</a>
+        </li>
+        
+
+    </ul>
+</nav>
+<nav class="navbar bg-light navbar-expand-sm justify-content-end ">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 3</a>
+        </li>
+        
+
+    </ul>
+</nav>
+<nav class="navbar bg-dark navbar-dark navbar-expand-sm ">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 3</a>
+        </li>
+        
+
+    </ul>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Link 3</a>
+        </li>
+        
+
+    </ul>
+</nav>
+COLLAPSE
+    <p>
+        <a href="#content" class="btn btn-primary" data-toggle="collapse">Read More...</a>
+    </p>
+    <div id="content" class="collapse">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati non sed asperiores est dicta possimus
+            expedita id totam praesentium. Commodi culpa itaque odit sapiente vitae ea laboriosam aliquam eius iure.</p>
+    </div>
+    <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#content2">Read More</button>
+    <div id="content2" class="collapse show">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati non sed asperiores est dicta possimus
+            expedita id totam praesentium. Commodi culpa itaque odit sapiente vitae ea laboriosam aliquam eius iure.</p>
+    </div>
+
+ACCORDİON
+<div id="accordion">
+    <div class="card-header">
+        <a href="#collapseOne" class="card-link" data-toggle="collapse">Item-1</a>
+    </div>
+</div>
+<div id="collapse_One" class="collapse" data-parent="#accordion">
+    <div class="card-body">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perferendis, repellat fuga, incidunt, eos harum officiis culpa neque non eius laborum aliquam sed soluta consectetur doloribus accusantium necessitatibus quisquam dicta?
+        </p>
+    </div>
+
+</div>
+
+CAROUSEL SLİDER
+<div class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/s01.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/s02.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/s03.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/s04.jpg" alt="">
+        </div>
+    </div>
+</div>
+after 5 second you will see new photo
+
+
+<div id="slider1" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/s01.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/s02.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/s03.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/s04.jpg" alt="">
+        </div>
+    </div>
+    <a href="#slider1" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#slider1" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+you can press and go next photo
+
+
+<div id="slider2" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#slider2" data-slide-to="0" class="active"></li>
+        <li data-target="#slider2" data-slide-to="1"></li>
+        <li data-target="#slider2" data-slide-to="2"></li>
+        <li data-target="#slider2" data-slide-to="3"></li>
+
+
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/s01.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/s02.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/s03.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/s04.jpg" alt="">
+        </div>
+    </div>
+    <a href="#slider2" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#slider2" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+three line at the bottom
+
+
+<div id="slider3" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#slider2" data-slide-to="0" class="active"></li>
+        <li data-target="#slider2" data-slide-to="1"></li>
+        <li data-target="#slider2" data-slide-to="2"></li>
+        <li data-target="#slider2" data-slide-to="3"></li>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/s01.jpg" alt="">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/s02.jpg" alt="">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/s03.jpg" alt="">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/s04.jpg" alt="">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+    <a href="#slider3" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#slider3" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+three line at the bottom whith some writing 
+-->
+<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#my_modal">open modal</button>
+<div class="modal fade" id="my_modal">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4>Header</h4>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit.
+            </div>
+            <div class="modal-footer">
+                Lorem, ipsum dolor.
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#my_modal_2">open modal 2</button>
+<div class="modal fade" id="my_modal_2">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4>Header</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit.
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" type="button" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 
 
 
