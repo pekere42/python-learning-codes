@@ -1,0 +1,6 @@
+my_tuple = (1561,256,156,5261,561)
+print(my_tuple[0])
+print(my_tuple[4])
+my_list = list(my_tuple)
+my_list.append(58)
+my_tuple_2 = tuple(my_list)
