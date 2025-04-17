@@ -1,0 +1,20 @@
+body{
+    background-color: forestgreen;
+}
+h1{
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+p{
+    /* large,px,1em,150% */
+    font-family: "Caveat";
+}
+#html{
+    border: 5px solid darkmagenta;
+    padding: 30px;
+    margin: 50px;
+}
+#css{
+    border: 6px dashed darkorchid;
+}
+/* border types=>solid,dashed,dotted */

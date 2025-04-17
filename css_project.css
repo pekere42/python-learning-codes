@@ -1,0 +1,22 @@
+h1{
+    font-size: 40px;
+    color: aquamarine;
+}
+p{
+    background-color: brown;
+
+}
+div{
+    background-color: chocolate;
+}
+span{
+    background-color: aqua;
+}
+.divstyle1{
+background-color: blueviolet;
+}
+#p1{
+    background-color: darkslateblue;
+    
+}
+/* "." is a class form ,"#" is a id form */
